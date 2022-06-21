@@ -1,12 +1,13 @@
 # Basic Prisma/GraphQL App
 
-This is a Basic Prisma Schema app built with GraphQL/NodeJS/ExpressJS to show the basic implementation of Prisma Schema using GraphQL. I have tried to omit as much code as I can ( like authentication, middleware, etc.)
+This is a Basic Prisma Schema app built with GraphQL/NodeJS/ExpressJS to show the basic implementation of Prisma Schema using GraphQL.
+(Authentication, middleware, etc. are not included for the simplicity of the application)
 
 ## Installation & Usage
 
-I used MySQL in this example but you can use other supported relational or non-relational databases ( preferred PostgreSQL or MongoDB ) 
+MySQL used in this example, other db's are supported (relational or non-relational) ( preferred PostgreSQL or MongoDB ) 
 
-Make sure to edit the .env.example to .env
+edit .env ( .env.example as reference )
 
 Create a table with the name in the URL in .env ( or change URL accordingly )
 
